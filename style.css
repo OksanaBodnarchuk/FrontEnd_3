@@ -1,6 +1,9 @@
 .calendar {
   padding: 0;
   display: flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   width: 350px;
   flex-wrap: wrap;
 }
@@ -24,7 +27,12 @@
   color: white;
 }
 .calendar__item:not(.calendar__item--small):hover {
-    background: lightgrey;
-    cursor: pointer;
-
+  background: lightgrey;
+  cursor: pointer;
+}
+.input__month {
+  width: 80px;
+}
+.timeline__item{
+   
 }
