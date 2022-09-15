@@ -30,7 +30,7 @@
   background: lightgrey;
   cursor: pointer;
 }
-.input__month {
+.calendar__month__input {
   width: 80px;
 }
 .timeline__item{
